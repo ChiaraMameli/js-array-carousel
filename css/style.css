@@ -1,0 +1,28 @@
+.gallery,
+#carousel {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#carousel img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#carousel i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    height: 2rem;
+}
+
+#carousel .fa-circle-chevron-left{
+    right: 105%;
+}
+
+#carousel .fa-circle-chevron-right{
+    left: 105%;
+}
