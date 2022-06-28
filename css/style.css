@@ -1,14 +1,20 @@
 .gallery,
 #carousel {
-    width: 600px;
-    height: 400px;
-    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
 }
 
-#carousel img {
+#carousel .gallery img {
     height: 100%;
     width: 100%;
+    border-radius: 1rem;
     object-fit: cover;
+    display: none;
+}
+
+#carousel .gallery .active {
+    display: block;
 }
 
 #carousel i {
@@ -16,7 +22,6 @@
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
-    height: 2rem;
 }
 
 #carousel .fa-circle-chevron-left{
